@@ -115,7 +115,7 @@ li {
     z-index: 99;
 }
 
-.primary-menu>li:focus-within .dropdown {
+.primary-menu>li:hover .dropdown {
     scale: 1;
 }
 
