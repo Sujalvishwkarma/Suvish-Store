@@ -135,6 +135,7 @@ li {
 }
 #login-btn:focus-within  .login-signup{
     scale: 1;
+    z-index: 99;
 }
 .login-signup {
     min-width: 300px;
@@ -145,7 +146,7 @@ li {
     color: black;
     right: 0;
     scale: 0;
-    z-index: 99;
+    z-index:99;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px grey;
 }
